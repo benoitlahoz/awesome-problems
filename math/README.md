@@ -16,8 +16,11 @@ const srcRange = {
 };
 
 let value: number = 451;
+```
 
-// Imperative.
+### Imperative
+
+```typescript
 const scale = (
   x: number,
   srcMin: number,
@@ -35,8 +38,11 @@ const scaledValue = scale(
   dstRange.min,
   dstRange.max
 );
+```
 
-// Functional
+### Functional
+
+```typescript
 const scale =
   (dstMin: number, dstMax: number) =>
   (value: number, srcMin: number, srcMax: number) => {
