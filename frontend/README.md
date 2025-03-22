@@ -1,3 +1,3 @@
 # Front-End
 
-## Elements adapters to simplify eventual future modifications
+## Wrapping elements in adapters to simplify eventual future modifications
