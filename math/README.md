@@ -50,7 +50,7 @@ const scale =
   };
 
 // A function to scale from 0. to 1.
-const scaleToNorm = scale(dstRange.min, dstRange.max);
+const scaleToNorm = scale(0, 1);
 
 // Scale it!
 const scaledValue = scaleToNorm(value, srcRange.min, srcRange.max);
